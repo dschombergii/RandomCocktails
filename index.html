@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="/assets/css/paper-kit.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Cocktails</title>
+</head>
+
+<body>
+
+
+    <div class="row text-center">
+        <div class="col-md-6">
+            <header class="text-center">
+                <h1 id="cocktailsHeader">Cocktails?</h1>
+                <label for="randomizer" id="randomizerLabel"></label>
+                <button name="randomizer" id="randomizer" onclick="randomCocktail()">Yes Please!</button>
+            </header>
+            <div id="cocktailCards" class="d-flex justify-content-center"></div>
+        </div>
+
+        <div class="col-md-6" id="savedCards">
+            <header class="text-center">
+                <h1 id="savedHeader">Loved Ones</h1>
+                <label for="randomizer" id="randomizerLabel">Your saved cocktails:</label>
+                <button name="randomizer" id="showButton" onclick="showCards()">Hide</button>
+            </header>
+            <div id="userCards" class="d-flex justify-content-center flex-wrap"></div>
+        </div>
+    </div>
+
+    <script src=" main.js">
+    </script>
+</body>
+
+</html>

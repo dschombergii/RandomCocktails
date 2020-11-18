@@ -1,0 +1,87 @@
+body {
+	background-color: #99b191;
+	color: black;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+h2 {
+	margin-top: 10px;
+}
+
+.recipeCard {
+	color: beige;
+	background: black;
+	width: 90%;
+	height: auto;
+	border-radius: 20px;
+	margin-bottom: 1em;
+}
+
+.cardImage {
+	height: auto;
+}
+
+img {
+	width: 100%;
+	border-radius: 20px 0 0 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+#ingredients {
+	height: auto;
+	margin-top: 20px;
+	font-size: 12pt;
+	border-top: 2px solid beige;
+	padding-left: 10px;
+}
+
+#instructions {
+	border-top: 2px solid beige;
+	padding: 20px;
+}
+
+#savedCards {
+	visibility: hidden;
+}
+
+#userCards {
+	visibility: visible;
+}
+
+label {
+	margin-right: 10px;
+}
+
+button {
+	color: black;
+	background-color: transparent;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+#saveButton,
+#removeButton {
+	color: beige;
+	border: 2px solid beige;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+button:focus {
+	outline: none;
+}
+
+@media screen and (max-width: 992px) {
+	img {
+		border-radius: 20px 20px 0 0;
+	}
+}
